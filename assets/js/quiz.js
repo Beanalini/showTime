@@ -12,7 +12,7 @@ let timerElement = document.getElementById ("timer-count");
 let currentQuestion ={}; //holds current question
 let userScore = 0;  //keeps count of the current score
 let questionCounter;
-let questionMax = 4;
+let questionMax = 11;
 let availableQuestions = [];//copy of question array
 let timer;
 let QuizTime = 60;
@@ -54,6 +54,62 @@ let questions = [
     "choice3": "Diving Over Medium",
     "choice4": "Document Object Meta",
     "answer": "optiona"
+},
+{ "id": "5",
+    "question": "Which of the following methods is used to access HTML elements using Javascript?",
+    "choice1": "getElementbyId()",
+    "choice2": "getElementsByClassName()",
+    "choice3": "Both A and B",
+    "choice4": "None of the above",
+    "answer": "optionc"
+},
+{ "id": "6",
+    "question": "How can a datatype be declared to be a constant type?",
+    "choice1": "var",
+    "choice2": "const",
+    "choice3": "let",
+    "choice4": "constant",
+    "answer": "optionb"
+},
+{ "id": "7",
+    "question": "What is the correct order for the CSS box model when going from the inner to the outermost components?",
+    "choice1": "Padding, content, margins, border",
+    "choice2": "Content, padding, border, margins",
+    "choice3": "Padding, content, border, margins",
+    "choice4": "Content, border, padding, margins",
+    "answer": "optionb"
+},
+{ "id": "8",
+    "question": "Which function is used to serialize an object into a JSON string in Javascript?",
+    "choice1": "stringify()",
+    "choice2": "parse()",
+    "choice3": "convert()",
+    "choice4": "None of the above",
+    "answer": "choicea"
+},
+{ "id": "9",
+    "question":"When selecting a specific class in CSS, what symbol should precede the class name? ",    
+    "choice1": "*",
+    "choice2": "#",
+    "choice3": ".",
+    "choice4": "::",
+    "answer": "optionc"
+},
+{ "id": "10",
+    "question": "What is the difference between em and vw in CSS?",
+    "choice1": "There are no fundamental differences between em and vw",
+    "choice2": "em handles the viewport width, while vw handles the viewport height",
+    "choice3": "em refers to the viewport width, while vw handles font scaling",
+    "choice4": "em refers to font scaling, while vw is a percentage width of the viewport",
+    "answer": "optiond"
+},
+{ "id": "11",
+    "question": "Which of the following HTML elements is a self-closing tag?",
+    "choice1": "<body>",
+    "choice2": "<li>",
+    "choice3": "<img>",
+    "choice4": "<a>",
+    "answer": "option"
 }
 ];
 
