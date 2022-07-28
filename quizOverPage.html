@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/quizOver.css" />
+  <title>Quiz Over</title>
+</head>
+<body>
+
+  
+    <div class="card">
+      <h1>End of Quiz</h1>
+      <div class = "results-text"> <div>
+        <h3>Correct answers: <span class="correctAnswers">0 </span> </h3>
+        <h3>Time: <span class="timer">0</span> seconds</h3>
+      </div> <hr>
+      
+      <h2>Add your score to the leader board</h2>  
+        <form method="POST">
+          <div class="input-group">
+            <label for="initials">Enter initials:</label>
+            <input type="text" name="initials" id="initials" class="initials" placeholder="DAC" />
+          </div>
+          <button id="save">Save</button>  
+          <button id="RestartQuizBtn">Quiz Home</button>
+          
+    </div>
+
+      
+  <script src="./assets/js/quizOverPage.js"></script>
+  
+</body>
+</html>

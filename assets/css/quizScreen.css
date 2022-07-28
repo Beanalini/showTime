@@ -1,0 +1,57 @@
+.choice-container {
+display:flex;
+margin-bottom: 2rem;
+width: 80%;
+font-size:1.8rem;
+border: 0.1rem solid rgb(86, 165, 235, 0.25);
+background-color:rgb(86, 165, 235, 0.25);
+
+}
+
+.choice-container:hover {
+cursor: pointer;
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 10px 5px 12px 4px rgba(83,102,128,0.76); 
+box-shadow: 0px 10px 13px -7px #000000, 10px 5px 12px 4px rgba(83,102,128,0.76);
+
+}
+
+.choice-text {
+  padding: 1.5rem;
+  font-size: 160%;
+}
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  margin-right: 3rem;
+  background-color: #2a607c;;
+  color: white;
+  border-radius: 50%;
+  font-size: 150%;
+}
+
+
+
+.large-font {
+  font-size: 4.5em;
+  text-align:center;
+}
+h3 {
+  font-size: 2rem;
+}
+header{
+  height: 20rem;
+  color:#fff  
+}
+
+.timer {
+  height: 12rem;
+  padding: 10px;
+  background: #13293d;
+  color: #fff;
+  text-align: center;
+  width: 20rem;
+}
+
+.timer-text {
+  padding: 5px;
+  color:#fff  
+}
