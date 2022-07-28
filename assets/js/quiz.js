@@ -146,6 +146,12 @@ function startTimer() {
         endQuiz();
       }
     }
+
+    if(timerCount <= 0 || currentCounter == 11) {
+      clearInterval(timer);      
+      endQuiz();
+    }
+
     // Tests if time has run out
     if (timerCount === 0) {
       // Clears interval
