@@ -18,6 +18,7 @@ box-shadow: 0px 10px 13px -7px #000000, 10px 5px 12px 4px rgba(83,102,128,0.76);
 .choice-text {
   padding: 1.5rem;
   font-size: 160%;
+  
 }
 .choice-prefix {
   padding: 1.5rem 2.5rem;
@@ -30,6 +31,8 @@ box-shadow: 0px 10px 13px -7px #000000, 10px 5px 12px 4px rgba(83,102,128,0.76);
 
 .reveal-ans-text{
   font-size: 3rem;
+  color:#1d0fbe;
+  font-weight: 700;
 }
 
 .large-font {
@@ -39,7 +42,7 @@ box-shadow: 0px 10px 13px -7px #000000, 10px 5px 12px 4px rgba(83,102,128,0.76);
 h3 {
   font-size: 2rem;
 }
-header{
+header {
   height: 20rem;
   color:#fff  
 }
