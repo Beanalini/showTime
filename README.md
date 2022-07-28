@@ -12,12 +12,14 @@ The aim of this challenge was to build a timed coding quiz, from scratch, with m
 This challenge required the app to run in the browswer and include dynamically updated HTML and CSS powered by JavaScipt code.
 
  
-### Starter Code Mock-up
+###  Mock-up of  Coding Quiz app
 
-![](assets/images/homework-demo.png)
+The following animation was provided as an example to show the  appearance and functionality needed to meet the criteria of this challenge.
+
+![](assets/images/homework-demo.gif)
 
 
-The functionality that the quiz app was required to implement implement is defined by the user story and acceptance criteria listed below.  
+The functionality that the quiz app was required to  implement is defined by the user story and acceptance criteria listed below.  
 
 
 
@@ -63,7 +65,7 @@ Code Quiz app  functionality implemented in JavaScript, HTML and CSS:
 
 Code Quiz Landing Page
 
-![Code quiz app](assets/images/psw_gen_landing.png)
+![Code quiz app](assets/images/)
 
 
 
@@ -73,10 +75,10 @@ Code Quiz Landing Page
 ## Deployed Website
 ---
 
-<a href="">Link to the deployed website </a>
+<a href="https://beanalini.github.io/showTime/">Link to the deployed website </a>
 
 
-<a href=""> Link to the password generator repository</a>
+<a href="https://github.com/Beanalini/showTime"> Link to the Code quiz app repository</a>
 
 ## Technologies Used
 ---
