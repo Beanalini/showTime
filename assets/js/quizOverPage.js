@@ -22,7 +22,7 @@ function saveLastScore() {
     time: storedTime,
     score: storedAnswers
   };
-  // Use .setItem() to store object in storage and JSON.stringify to convert it as a string
+  //  .setItem() stores the score in local storage and JSON.stringify convert it to a string
   localStorage.setItem("userScore", JSON.stringify(userScore));
 }
 

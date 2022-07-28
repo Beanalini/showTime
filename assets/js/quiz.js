@@ -11,11 +11,11 @@ let timerElement = document.getElementById ("timer-count");
 //Globals
 let currentQuestion ={}; //holds current question
 let userScore = 0;  //keeps count of the current score
-let questionCounter;
-let questionMax = 11;
+let questionCounter; //count of how many questions have been asked
+let questionMax = 11; //number of questions
 let availableQuestions = [];//copy of question array
 let timer;
-let QuizTime = 60;
+let QuizTime = 120;
 let timerCount = QuizTime;
 
 
@@ -116,7 +116,7 @@ let questions = [
 function startQuiz() {
   questionCounter = 0;
   userScore = 0;
-  /* Create a copy of the question object: JSON approach clones the contents
+  /* Create a copy of the question array object: JSON approach clones the contents
    of the array, not just the array itself. The copy is used to select a question randomly
    which is then deleted so its not reslected*/
   availableQuestions = JSON.parse(JSON.stringify(questions));
@@ -219,12 +219,18 @@ function checkQuestion(event) {
     userScore++;
     revealAnswer.textContent = "Correct Answer";
     console.log(event.target.id);
+  } else if (event.target.id != currentQuestion.answer && timerCount < 10){
+    //the time left is less the the deduction so end the quiz
+    setTimeout(function() {window.location.href = "quizOverPage.html"} ,1000);
   } else if(event.target.id != currentQuestion.answer){
     console.log(false);
     revealAnswer.textContent = "Wrong Answer";
     timerCount = timerCount - 10;
     //Deduct 10 seconds from the timer for an incorrect answer
+    //if the timer count is 
   } else{console.log("problem");}
+
+  
 
   //keeps track of number of questions asked
   questionCounter++;
