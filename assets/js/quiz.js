@@ -176,7 +176,7 @@ function setLocalStorage() {
 function endQuiz() {
   setLocalStorage();
   //add a delay before transitioning the quiz over page
-  setTimeout(function() {window.location.href = "../../quizOverPage.html"} ,1000);
+  setTimeout(function() {window.location.href = "quizOverPage.html"} ,1000);
 } 
 
 function getNewQuestion() {

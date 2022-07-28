@@ -36,10 +36,10 @@ var userInitials = document.getElementById("initials");
 saveBtn.addEventListener("click", function(event) {
   event.preventDefault();
   saveLastScore();
-  setTimeout(function() {window.location.href = "../../highScoresPage.html"} ,500);
+  setTimeout(function() {window.location.href = "highScoresPage.html"} ,500);
   });
 
   RestartQuizBtn.addEventListener("click", function(event) {
     event.preventDefault();
-    window.location.href = "../../index.html";
+    window.location.href = "index.html";
     });
