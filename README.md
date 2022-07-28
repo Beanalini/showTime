@@ -65,13 +65,23 @@ Code Quiz app  functionality implemented in JavaScript, HTML and CSS:
 
 Code Quiz Landing Page
 
-![Code quiz app](assets/images/)
+![quiz app start page](assets/images/quiz-landing.PNG)
 
 
+Quiz Page with muliple choice questions - showing answer slection correct
 
 
+![question page](assets/images/Question-answer.PNG)
+
+Quiz over page with option to save score to the leader board
 
 
+![question page](assets/images/quiz-end.PNG)
+
+
+Leader board page showing current high score
+
+![question page](assets/images/leader-board.PNG)
 ## Deployed Website
 ---
 
