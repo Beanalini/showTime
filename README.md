@@ -52,34 +52,48 @@ THEN I can save my initials and my score
 ## Approach 
 ---
 Code Quiz app  functionality implemented in JavaScript, HTML and CSS:
-
+- a timer has been implemented to count down to zero
+- questions are displayed dynamically
+- An array of ojects has been used to store the questions  
+- A copy of the array of objects is made so that questions are displayed randomly each timer a user plays a game.
+  - questions are removed from the coied array of objects to elimate repition.
+- conditional statements have been used to test that the deducted time for each in correcct answer does not go below zero, in this case the game would end.
+- conditonal statements test for the timer reaching zero and/or all questions having been answered
+- This app uses linked HTML pages, local storage has been used to enable user scores and times to be used between the 'quiz' and 'quiz end' HTML pages.
+- Local storage has been used to add user intials, score and timing information to a leader board
 
 
  
 ## Usage
 ---
-
+- Open the <a href="https://beanalini.github.io/showTime/">Coding Quiz App.</a>
+- In the 'Coding Quiz' home page there are two buttons that link to different pages:
+  - the 'Start Quiz' button begins the quiz.  The user has 120 seconds to answer as many questiona as possible, 10 seconds will be deducted from the clock for each wrong answer!
+  - the 'Leader Board' button links to the highest scores page which lists the last saved initals, number of correct answers and the time taken.
+- After clicking the 'start Quiz' button,   a question and four possible answer options will be displayed. Click on the preferered answer - incorrect or correct will be displayed below the set of questions.
+- When the timer runs out, or all questions have been answered, the screen will transistion to the 'End of Quiz' page, the user score and time taken are displayed.  There is also an option to save a score to the leader board by pressing the 'save' button. Press the 'Quiz Home' button to return to the 'Coding Quiz' home page.
+- View the leaderboard score from the Coding Quiz homepage. 
 
 ##  Code Quiz Screen Shots
 ---
 
 Code Quiz Landing Page
 
-![quiz app start page](assets/images/quiz-landing.PNG)
+![quiz app start page](assets/images/quiz-landing-page.PNG)
 
 
-Quiz Page with muliple choice questions - showing answer slection correct
+Quiz Page with muliple choice questions - showing answer selection correct.
 
 
 ![question page](assets/images/Question-answer.PNG)
 
-Quiz over page with option to save score to the leader board
+Quiz over page with option to save user initials and score details to the leader board.
 
 
 ![question page](assets/images/quiz-end.PNG)
 
 
-Leader board page showing current high score
+Leader board page showing current high score.
 
 ![question page](assets/images/leader-board.PNG)
 ## Deployed Website
