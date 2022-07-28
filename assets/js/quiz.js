@@ -60,8 +60,9 @@ let questions = [
 function startQuiz() {
   questionCounter = 0;
   userScore = 0;
-  /* Create acopy of the question: JSON apprroach clones the contents
-   of the array, not just the array itself. */
+  /* Create a copy of the question object: JSON approach clones the contents
+   of the array, not just the array itself. The copy is used to select a question randomly
+   which is then deleted so its not reslected*/
   availableQuestions = JSON.parse(JSON.stringify(questions));
   console.log(availableQuestions);
 
@@ -117,8 +118,7 @@ function endQuiz() {
 } 
 
 function getNewQuestion() {
-//keeps track of number of questions asked
-questionCounter++;
+
 //clear answer reveal
 revealAnswer.textContent = " ";
 
@@ -164,6 +164,8 @@ function checkQuestion(event) {
     //Deduct 10 seconds from the timer for an incorrect answer
   } else{console.log("problem");}
 
+  //keeps track of number of questions asked
+  questionCounter++;
  //Adds a delay so user can see right/wrong answer before changing to next question 
  setTimeout(function() {getNewQuestion()} ,1000);
 } 
